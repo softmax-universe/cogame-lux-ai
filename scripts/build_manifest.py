@@ -172,7 +172,7 @@ RESULTS_SCHEMA = {
 
 PLAYER_RESOURCES = {"requests": {"cpu": "200m", "memory": "128Mi"},
                     "limits": {"cpu": "1"}}
-SOURCE_URL = "https://github.com/Metta-AI/cogame-lux-ai/tree/main"
+SOURCE_URL = "https://github.com/softmax-universe/cogame-lux-ai/tree/main"
 
 PLAYER_PROTOCOL = """The seat websocket is ws://<host>:<port>/player?slot=<i>&token=<t>; a bad slot or
 token is a 403. A seat sends exactly ONE thing that matters: a Sprite v1 chat
